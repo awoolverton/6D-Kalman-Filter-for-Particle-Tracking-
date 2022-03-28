@@ -25,7 +25,9 @@ Since the program is constantly keeping track of the states and the covaraince m
 Additional functionality is provided by the functions GetStateVectors() and GetResiduals(). These functions return a vector of TVectorD objects for further analysis. The function GetOutliers() returns a vector of indicies from the map of measurements. These measurements have failed the quality test and were not used to update the state dynamics.
 
 ## Project Example
+The project example generates a series of points generated around the line originating at the origin in (1,1,1) direction. The level of contamination can be adjusted as well as the standard deviation of points aroind the line. In this example, the standard deviation was 0.5 and the model follows basic 3D linear kinematics such that the state vector is (x,y,z, vx,vy,vz). The contamination level was set to 10%. With an alph threshold set to 0.01, the filter was successfully able to remove the abnormalities. 
 
+![image info](/images/example_of_good_guess.pdf)
 
 ## Contributing
 I encurage any pull requests and experimentation; however, please open an issue thread in order to discuss possible modifications.
