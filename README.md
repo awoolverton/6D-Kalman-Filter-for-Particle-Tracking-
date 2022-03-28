@@ -30,6 +30,6 @@ Additional functionality is provided by the functions GetStateVectors() and GetR
 ## Contributing
 I encurage any pull requests and experimentation; however, please open an issue thread in order to discuss possible modifications.
 
-##Licence and Copywright 
+## Licence and Copywright 
 (C) Austin David Woolverton, The Institute of Quantum Computing at the University of Waterloo
 Licenced unter the [MIT Licence](LICENCE.md).
