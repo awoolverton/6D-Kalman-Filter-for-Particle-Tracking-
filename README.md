@@ -8,8 +8,6 @@ The Kalman filter is used to estimate the statistical behavoir of a system in th
 
 If each individual measurement arrives discontinuously a discrete Kalman filter is used to estimate the dynamics. Here, the implementation of a 6-dimentional filter is described in detail. In general, the filter alternates between a **prediction** and **update** step in order to converge at a proper estimate of all state vectors.  
 
-## Key Features
-
 ## Installation
 This program is dependant on the [ROOT](https://root.cern/) package v-1.6 developed by cern. With this dependancy properly installed, the project can be cloned into a local folder. 
 
@@ -28,5 +26,10 @@ Additional functionality is provided by the functions GetStateVectors() and GetR
 
 ## Project Example
 
+
 ## Contributing
 I encurage any pull requests and experimentation; however, please open an issue thread in order to discuss possible modifications.
+
+##Licence and Copywright 
+(C) Austin David Woolverton, The Institute of Quantum Computing at the University of Waterloo
+Licenced unter the [MIT Licence](LICENCE.md).
